@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.imagewrap}>
-          <Image className={styles.myImg} src="/home.jpg" width={237} height={158} alt="hunting coder" />
+          <Image className={styles.myImg} src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width={237} height={158} alt="hunting coder" />
         </div>
         <h1 className={styles.title}>
           <span className='dummy'>&lt;HuntingCoder/&gt;</span>
