@@ -3,7 +3,7 @@ import * as fs from 'fs'
 import { useRouter } from 'next/router';
 import styles from '../../styles/BlogPost.module.css';
 
-const slug = (props) => {
+const Slug = (props) => {
     const [blog, setBlog] = useState(props.myBlog);
 
     function createMarkup(c) {
@@ -41,4 +41,4 @@ export async function getStaticProps(context) {
     }
 }
 
-export default slug
+export default Slug
